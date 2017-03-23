@@ -1,0 +1,52 @@
+.featuredWork .galleryHead{
+    width: 1170px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.featuredWork .gallery{
+    width: 2925px;
+    position: relative;
+
+}
+
+.featuredWork .gallery .pic{
+    background-size: 295.5px;
+    width: 292.5px;
+    height: 222px;
+    margin-bottom: 50px;
+    transition: 0.3s ease-in-out;
+    position: relative;
+}
+.featuredWork .gallery .pic:hover{
+    transform: scale(0.95)
+}
+.featuredWork .gallery .pic .layot{
+    background: transparent;
+    height: 222px;
+}
+.featuredWork .gallery .pic .layot .eye{
+    /*background-image: url('../img/elave/zoom.png');
+    background-repeat: no-repeat;*/
+    opacity: 0;
+    font-size: 50px;
+    width: 162.5px ;
+    cursor: pointer;
+    height: 222px;
+    color: white;
+    position: absolute;
+    left: 0%;
+    padding-left: 45%;
+    transition: all 0.3s ease-in-out;
+}
+
+.featuredWork .ourteam .teamslider{
+
+    width: 1170px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.featuredWork .ourteam .team{
+        width: 3000px;
+           position: relative;
+           display: block;
+}
